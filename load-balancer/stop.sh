@@ -1,3 +1,3 @@
 #!/bin/bash
-docker stop nginx-lb
-docker rm nginx-lb
+docker kill nginx-load-balancer
+docker rm nginx-load-balancer

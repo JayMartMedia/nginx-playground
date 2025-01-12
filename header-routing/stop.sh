@@ -1,3 +1,3 @@
 #!/bin/bash
-docker stop nginx-headr
-docker rm nginx-headr
+docker kill nginx-header
+docker rm nginx-header

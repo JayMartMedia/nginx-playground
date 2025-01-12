@@ -1,3 +1,3 @@
 #!/bin/bash
-docker stop nginx-hr
-docker rm nginx-hr
+docker kill nginx-host-routing
+docker rm nginx-host-routing
