@@ -72,7 +72,7 @@ For example:
 - example.com goes to instance 001
 - local.testing.com goes to instance 002
 
-```
+```mermaid
 flowchart LR
     0[request 1] -->|default domain, not matching other server blocks, */, */endpoint| A[NGINX Reverse Proxy]
     1[request 2] -->|example.com/, example.com/endpoint| A
